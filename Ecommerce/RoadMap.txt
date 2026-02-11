@@ -1,0 +1,241 @@
+Level 0 — Bare Hands (Foundations)
+
+Goal: Make the browser and server feel less magical.
+
+Project 0.1: HTTP Server From Scratch
+
+Stack: Node (no frameworks)
+
+Requirements:
+
+Open a TCP socket
+
+Parse raw HTTP requests yourself
+
+Support:
+
+GET /
+
+POST /echo
+
+Return valid HTTP responses (status line, headers, body)
+
+Handle malformed requests without crashing
+
+You will learn:
+
+What HTTP actually is
+
+Why frameworks exist
+
+Why bugs feel “weird” at this level
+
+Project 0.2: Static File Server
+
+Requirements:
+
+Serve HTML, CSS, JS files
+
+Correct Content-Type
+
+Directory traversal protection (../ attacks)
+
+404 vs 500 correctly
+
+Level 1 — Frontend Without Comfort
+
+Goal: DOM mastery and state pain.
+
+Project 1: Vanilla JS Trello (No Frameworks)
+
+Requirements:
+
+Add / edit / delete cards
+
+Drag cards between columns
+
+Persist state using localStorage
+
+No libraries. No React. No CSS frameworks.
+
+Constraints:
+
+You must manage state manually
+
+Re-render logic is your responsibility
+
+You will learn:
+
+Why React exists
+
+Event delegation
+
+State synchronization bugs
+
+Level 2 — Backend Reality Check
+
+Goal: Data, errors, and persistence.
+
+Project 2: REST API Without ORM
+
+Stack: Node + Express (allowed), raw SQL
+
+Requirements:
+
+CRUD for users and posts
+
+Authentication using:
+
+Password hashing
+
+Sessions OR JWT (your choice)
+
+SQL migrations written by hand
+
+Proper HTTP status codes
+
+Hard mode:
+
+No ORMs
+
+No auth libraries
+
+You will learn:
+
+SQL schemas
+
+Auth edge cases
+
+Why login systems are fragile
+
+Level 3 — Fullstack Pain Begins
+
+Goal: Frontend + backend integration.
+
+Project 3: Real-Time Chat App
+
+Requirements:
+
+User accounts
+
+Private + public rooms
+
+WebSockets (no polling)
+
+Message persistence
+
+“User is typing” indicator
+
+Constraints:
+
+Handle reconnects
+
+Handle duplicate messages
+
+Handle server restarts
+
+Level 4 — System Thinking
+
+Goal: Think like an engineer, not a coder.
+
+Project 4: Build Your Own API Rate Limiter
+
+Requirements:
+
+Per-user rate limits
+
+Time windows
+
+Redis or in-memory (start in-memory)
+
+Correct 429 responses
+
+Sliding window (not naive counters)
+
+Level 5 — Frontend Architecture (No Frameworks Again)
+
+Goal: Feel framework pain deeply.
+
+Project 5: SPA Router + State Manager
+
+Requirements:
+
+URL-based routing
+
+Back/forward support
+
+Global state store
+
+Subscriptions
+
+Minimal re-renders
+
+You basically build:
+
+React Router
+
+Redux-lite
+
+Level 6 — Production Problems
+
+Goal: Real-world failure modes.
+
+Project 6: “It Broke at 2AM” Simulator
+
+Requirements:
+
+Centralized logging
+
+Graceful crashes
+
+Environment configs
+
+Health check endpoint
+
+Simulate:
+
+DB downtime
+
+Memory leaks
+
+Slow queries
+
+Level 7 — Final Boss
+
+Goal: You’re dangerous now.
+
+Project 7: Build a SaaS Clone
+
+Pick one:
+
+Stripe billing clone
+
+GitHub Issues clone
+
+Notion-lite
+
+Dropbox-lite
+
+Requirements:
+
+Auth
+
+Permissions
+
+Billing logic (fake money OK)
+
+Audit logs
+
+Background jobs
+
+Deployment
+
+How You Know You’re Doing It Right
+
+You get stuck for days
+
+You read docs at 3am
+
+You say “ohhhh THAT’S why”
+
+Your code gets simpler, not bigger

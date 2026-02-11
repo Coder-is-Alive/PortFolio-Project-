@@ -1,0 +1,65 @@
+1.Realtime chat app(websocket);
+ ->client-server communication
+ ->Events,room,broadcasting
+ ->Connection/disconnection handling
+
+
+ 2.Rest Api+Auth(No ui focus)
+
+ build:
+ user signup/login
+ jwt authentication
+ protected routes
+
+ 3.File sharing app
+ build:
+ upload./download files
+ show upload progress
+
+Phase2
+
+Camera and Mic Tester
+build: 
+access webcam and mic 
+toggle mute/unmute
+switch Camera
+
+
+Screen Recorder(local)
+build:
+record Screen
+save as video files
+
+
+one-to-one video call (local network)
+build :
+two browsers tab
+video+ audio call
+
+
+Phase3 : 
+signallign server 
+build:
+websocket server for webRTC signalling 
+
+multi-user video room 
+build: 
+join room 
+show all video feeds
+
+Zoom-like features 
+
+Mute/Unmute/Camera Toggle(synced)
+build:
+buttons affect all participants 
+
+
+Screen share to room 
+build:
+one user shares scren 
+others watch 
+
+Chat inside video call 
+build: 
+side chat panel 
+
